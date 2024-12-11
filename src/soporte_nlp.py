@@ -581,4 +581,4 @@ class AnalisisSentimientos:
         pd.DataFrame
             Resumen estadístico (count, mean, std, min, max) de las puntuaciones.
         """
-        return self.dataframe[['neg', 'neu', 'pos', 'compound']].describe()
+        return self.dataframe[['neg', 'neu', 'pos', 'compound']]
